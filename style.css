@@ -6,8 +6,39 @@
      
 }
 
+.container {
+    font-size: large;
+}
 
+nav {
+    
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: green;
+    width: 100%;
 
+}
+
+nav h1 {
+    cursor: pointer;
+}
+ 
+nav ul {
+    list-style: none;
+
+}
+
+nav li{
+    display: inline-block;
+    padding: 0 10px;
+    background-color: red;
+}
+
+nav li:hover {
+    background-color: blue;
+}
 
 
 
