@@ -43,6 +43,11 @@ nav a {
     text-decoration: none;
     color: black;
 }
+
+nav a:hover {
+    color: white;
+}
+
 nav ul li{
     background-color: rgb(255, 255, 255);
     padding: 3px 10px;
@@ -52,7 +57,11 @@ nav ul li{
 }
 
 nav li:hover {
-    background-color: blue;
+    background-color: black;
+}
+
+nav a:active {
+    color: black;
 }
 
 @media (max-width: 600px) {
