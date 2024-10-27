@@ -7,11 +7,12 @@
 }
 
 .container {
-    font-size: large;
+    background-color: blueviolet;
+    height: 100vh;
 }
 
 nav {
-    
+    font-size: large;
     display: flex;
     height: 100px;
     align-items: center;
@@ -51,4 +52,40 @@ nav li:hover {
     nav ul {
         display: none;
     }
+}
+
+.article {
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.article h2{
+    font-size: 40px;
+}
+
+.article p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.article button {
+    cursor: pointer;
+    padding: 10px 17px;
+    border: 2px solid red;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+.article button:hover {
+    background-color: blanchedalmond;
+}
+
+.article button:active {
+    
+    background-color: red;
 }
