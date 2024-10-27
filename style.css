@@ -15,7 +15,7 @@ nav {
     display: flex;
     height: 100px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: green;
     width: 100%;
 
@@ -23,25 +23,32 @@ nav {
 
 nav h1 {
     cursor: pointer;
+    background-color: yellowgreen;
+    margin-left: 15px;
+
 }
  
 nav ul {
     list-style: none;
+    display: flex;
+
 
 }
 
-nav li{
-    display: inline-block;
-    padding: 0 10px;
+nav a {
+    text-decoration: none;
+}
+nav ul li{
     background-color: red;
+    margin: 0px 10px;
 }
 
 nav li:hover {
     background-color: blue;
 }
 
-
-
-
-
-
+@media (max-width: 600px) {
+    nav ul {
+        display: none;
+    }
+}
